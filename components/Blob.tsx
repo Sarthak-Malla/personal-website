@@ -19,10 +19,10 @@ const Blob = () => {
 
   return (
     <div
-      className="fixed w-12 h-12 bg-gradient-to-br from-gray-500 via-purple-500 to-blue-500 rounded-full opacity-20 pointer-events-none blur-xl"
+      className="fixed w-96 h-98 bg-gradient-to-br from-gray-500 via-purple-500 to-blue-500 rounded-full opacity-20 pointer-events-none blur-xl"
       style={{
-        left:  -12*2 + 'px',
-        top: -12*2 + 'px',
+        left:  -98*2 + 'px',
+        top: -98*2 + 'px',
         transform: `translate(${position.x}px, ${position.y}px) scale(2)`,}}
     ></div>
   );
