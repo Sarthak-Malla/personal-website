@@ -6,7 +6,7 @@ export default function Home() {
       <div className='w-full'>
         <div className='relative flex h-[738.74px] max-w-[1200px] mx-auto'>
           <div className='absolute mx-auto'>
-            <Image src='/images/landing-page.png' alt='Landing Image' width={1200} height={738.74} sizes='(max-width: 100px) 100vw' className='m-0 mt-1 mx-auto'/>
+            <Image src='/images/landing-page-min.png' alt='Landing Image' width={1200} height={738.74} sizes='(max-width: 100px) 100vw' className='m-0 mt-1 mx-auto'/>
           </div>
           <div className='flex items-center justify-center my-[100px] ml-auto mr-16 z-0
                           bg-black bg-opacity-[0.02] backdrop-filter backdrop-blur-sm
