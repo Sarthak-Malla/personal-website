@@ -26,5 +26,5 @@
     rgb(var(--background-start-rgb));
 } */
 body {
-  background-color: var(--background-end-rgb);
+  background-color: quaternary;
 }

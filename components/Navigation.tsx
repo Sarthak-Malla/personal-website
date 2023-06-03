@@ -9,7 +9,7 @@ import Linkedin from '../public/icons/linkedin.svg';
 export default function Navigation() {
     return (
         <nav className="top-0 left-0 flex justify-between items-center p-6 m-auto my-0 border-b-2 border-black
-                        w-[1250px]">
+                        w-[75%] text-primary">
 
             <Link href="/">
                 <h1 className=' text-3xl'>Sarthak Malla</h1>
