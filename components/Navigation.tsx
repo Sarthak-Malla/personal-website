@@ -5,14 +5,21 @@ import Twitter from '../public/icons/twitter.svg';
 import Github from '../public/icons/github.svg';
 import Linkedin from '../public/icons/linkedin.svg';
 
+import { Mukta } from 'next/font/google';
+
+const mukta = Mukta({
+    weight: '400',
+    subsets: ['latin-ext'],
+})
+
 // Navigation component of the app
 export default function Navigation() {
     return (
         <nav className="top-0 left-0 flex justify-between items-center p-6 m-auto my-0 border-b-2 border-black
-                        w-[75%] text-primary">
+                        w-[75%] text-primary max-h-[80px]">
 
-            <Link href="/">
-                <h1 className=' text-3xl'>Sarthak Malla</h1>
+            <Link href="/" className={mukta.className}>
+                <h1 className=' text-4xl'>Sarthak Malla</h1>
             </Link>
             <div className="flex items-center justify-between space-x-10">
                 <Link href="/about">
