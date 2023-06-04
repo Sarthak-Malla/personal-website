@@ -1,6 +1,7 @@
 import '../style/globals.css'
 import Navigation from '../components/Navigation'
 import Blob from '../components/Blob'
+import Footer from '../components/Footer'
 
 export const metadata = {
   title: 'Sarthak Malla | Software Engineer | Full Stack Developer',
@@ -14,6 +15,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* <Blob /> */}
         <Navigation />
         {children}
+        <Footer />
       </body>
     </html>
   )
